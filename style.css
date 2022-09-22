@@ -20,7 +20,7 @@ body{
        background-color: #ff0000;
        height: 100vh;
        z-index: 4;
-       padding: 50px;
+      padding-top: 50px;
 }
 .sidebar ul{
     list-style: none;

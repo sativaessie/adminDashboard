@@ -11,7 +11,7 @@ require_once('includes/links.php')
 	</div>
 	<!-- sidebar here -->
 	<?php
-	require_once('includes/sidebar.php')
+	require_once('includes/sidebar.php');
 	require_once('includes/header.php')
 	?>
 	<div class="main-content">

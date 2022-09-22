@@ -6,7 +6,7 @@ require_once('includes/links.php')
 <body>
     <!-- All our code. write here   -->
 	<?php
-	require_once('includes/sidebar.php')
+	require_once('includes/sidebar.php');
 	require_once('includes/header.php')
 	?>
     

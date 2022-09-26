@@ -46,12 +46,9 @@ require_once('includes/links.php')
                                         <td>Web Design</td>
                                         <td>22nd Sep 2022</td>
                                         <td>
-                                            <a href="" class="btn btn-primary btn-sm"></a>
-											<i class="fa fa-edit"></i>
-                                            <a href="" class="btn btn-success btn-sm"></a>
-											<i class="fa fa-eye"></i>
-                                            <a href="" class="btn btn-danger btn-sm"></a>
-											<i class="fa fa-trash"></i> 
+                                            <a href="" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
+                                            <a href="" class="btn btn-success btn-sm"><i class="fa fa-eye"></i></a>											
+                                            <a href="" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> </a>											
                                         </td>
                                     </tr>
                                 </tbody>

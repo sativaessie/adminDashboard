@@ -48,10 +48,10 @@
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-header bg-dark text-white text-center">
-                            <span>Add Students</span>                           
+                            <span>Edit Students</span>                           
                         </div>
                         <div class="card-body">
-                            <form action="addStudents.php" method="post">
+                            <form action="editStudents.php" method="post">
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="form-group">

@@ -35,7 +35,7 @@ require_once('includes/links.php')
                                         <th>Name</th>
                                         <th>Reg Number</th>
                                         <th>Phone</th>
-                                        <th>Email</th>
+                                        <th>Email</th> 
                                         <th>Course</th>
                                         <th>Enrolled On</th>
                                         <th>Action</th>
@@ -52,9 +52,9 @@ require_once('includes/links.php')
                                         <td><?php echo $row['course']?></td>
                                         <td><?php echo $row['created_at']?></td>
                                         <td>
-                                            <a href="" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
-                                            <a href="" class="btn btn-success btn-sm"><i class="fa fa-eye"></i></a>											
-                                            <a href="" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> </a>											
+                                            <a href="editStudents.php?id=<?php echo $row['id']?>" class="btn btn-primary btn-sm"><i class="fa fa-edit"></i></a>
+                                            <a href="viewStudents.php?id=<?php echo $row['id']?>" class="btn btn-success btn-sm"><i class="fa fa-eye"></i></a>											
+                                            <a href="deleteUser.php?id=<?php echo $row['id']?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> </a>											
                                         </td>
                                     </tr>
                                     <?php } ?>

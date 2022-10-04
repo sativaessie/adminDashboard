@@ -2,7 +2,7 @@
         <nav>
             <ul>
             <li>
-                    <a href="students.php">
+                    <a href="index.php">
                         <span> <i class="fa fa-tachometer"></i></span>
                         <span>Dashboard</span>
                     </a>
@@ -25,10 +25,13 @@
                         <span>Campus</span>
                     </a>
                 </li>
+                <li>
+                    <a href="subscribers.php">
+                        <span> <i class="fa fa-envelope"></i></span>
+                        <span>Subscribers</span>
+                    </a>
+                </li>
             </ul>
         </nav>
 
     </div>
-
-                                    
-                                    
